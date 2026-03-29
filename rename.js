@@ -2,7 +2,7 @@ async function operator(proxies = [], targetPlatform, context) {
     const result = [];
 
     // 👉 读取 URL 参数
-    const CUSTOM_PREFIX = context?.arguments?.chang_shu || 'ZZZ默认_';
+    const CUSTOM_PREFIX = context?.arguments?.chang_shu || '00默认_';
 
     const now = new Date();
     const DATE_PREFIX = `${now.getMonth() + 1}.${now.getDate()}日_`;
